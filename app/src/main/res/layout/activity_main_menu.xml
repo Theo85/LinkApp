@@ -10,14 +10,10 @@
     tools:context="com.gmail.krawiec.teodor.linkapp.MainMenuActivity">
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Unit coverter"
+        android:text="Unit converter"
         android:id="@+id/button"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
         android:onClick="openUnitsActivity"/>
 </RelativeLayout>
+
