@@ -11,11 +11,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Unit Converter"
+        android:text="@string/title_activity_unit_converter"
         android:id="@+id/textView"
-        android:textSize="30dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"/>
+        android:textSize="@dimen/main_font_size"
+        android:layout_centerHorizontal="true"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,7 +24,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Select Unit"
+            android:text="@string/select_unit"
             android:id="@+id/button1"
             android:layout_weight="2"
             android:onClick="change1Unit"/>
@@ -36,6 +35,7 @@
             android:id="@+id/editText1"
             android:layout_weight="2"/>
         <ImageView
+            android:contentDescription="@string/image_desc_paste"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/imageView1"
@@ -52,7 +52,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Select Unit"
+            android:text="@string/select_unit"
             android:id="@+id/button2"
             android:layout_weight="2"
             android:onClick="change2Unit"/>
@@ -63,6 +63,7 @@
             android:id="@+id/editText2"
             android:layout_weight="2"/>
         <ImageView
+            android:contentDescription="@string/image_desc_copy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/imageView2"
@@ -77,16 +78,18 @@
         android:layout_below="@id/LinearLayout2"
         android:id="@+id/LinearLayout3">
         <Button
+            style="?android:attr/buttonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Category"
+            android:text="@string/category"
             android:id="@+id/button4"
             android:layout_weight="1"
             android:onClick="changeCategory"/>
         <Button
+            style="?android:attr/buttonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Convert!"
+            android:text="@string/convert"
             android:id="@+id/button3"
             android:layout_weight="1"
             android:onClick="count"/>

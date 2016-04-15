@@ -12,6 +12,7 @@
     tools:context="com.gmail.krawiec.teodor.linkapp.MainActivity">
 
     <ImageView
+        android:contentDescription="@string/image_desc_logo"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/imageView"

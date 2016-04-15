@@ -7,8 +7,6 @@ import android.content.DialogInterface;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -81,8 +79,8 @@ public class UnitConverter extends AppCompatActivity {
                 category = item;
                 unit1 = -1;
                 unit2 = -1;
-                unit1Button.setText("Select Unit");
-                unit2Button.setText("Select Unit");
+                unit1Button.setText(R.string.select_unit);
+                unit2Button.setText(R.string.select_unit);
             }
         });
         builder.create();
@@ -117,7 +115,7 @@ public class UnitConverter extends AppCompatActivity {
                     }
                     switch (unit2){
                         case 1:
-                            from = 32 + 9 / 5 * from;
+                            from = 9 / 5 * (32 + from) ;
                             break;
 
                         case 2:
