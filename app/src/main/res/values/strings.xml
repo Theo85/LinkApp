@@ -13,4 +13,5 @@
     <string name="image_desc_copy">Copy Button</string>
     <string name="image_desc_paste">Paste Button</string>
     <string name="convert">Convert!</string>
+    <string name="exit_messege">Press one more time to exit.</string>
 </resources>
